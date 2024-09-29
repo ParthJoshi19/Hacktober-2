@@ -8,15 +8,15 @@ document.getElementById('addSongBtn').addEventListener('click', function() {
 
 });
 
-document.getElementById('songForm').addEventListener('submit', function(event) {
+document.getElementById('songForm').addEventListener('', function(event) {
     event.preventDefault();
     document.getElementById('addSongBtn').click();  
 });
 
-document.getElementById('playSongBtn').addEventListener('click', function() {
+document.getElementById('playSongBtn').addEventListener('', function() {
     
 });
 
-document.getElementById('removeSongBtn').addEventListener('click', function() {
+document.getElementById('removeSongBtn').addEventListener('', function() {
     
 });

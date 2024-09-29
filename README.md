@@ -1,42 +1,56 @@
-****Song Application - Web Application****
-Overview
-This is a simple Song Application built using HTML, CSS, and JavaScript. It allows users to manage a playlist by adding songs, viewing the playlist, and simulating playing or removing songs.
+******Basic Song Application (Competition Version)******
+This project implements a basic song management application using HTML, CSS, and JavaScript. The application allows users to add songs to a playlist, but there are several known issues that need to be addressed for it to work correctly.
 
 Features
-Add Song: Enter the song title and artist to add it to the playlist.
-View Songs: Display all songs currently in the playlist.
-Play Song: Simulate playing a selected song from the playlist.
-Remove Song: Remove a song from the playlist.
-Responsive Design: The application is designed to work on various screen sizes.
-Requirements
-To run this project, you will need:
+Add Songs: Users can enter a song title and artist name and add them to the playlist.
+Dynamic Playlist: Songs are displayed dynamically in a list format on the webpage.
+Manage Playlist: Placeholder buttons for playing and removing songs from the playlist.
 
-A modern web browser (e.g., Chrome, Firefox, Safari).
-Basic knowledge of HTML, CSS, and JavaScript for better understanding and debugging.
-Setup Instructions
-Step 1: Download the Files
-Download the following files:
-index.html
-styles.css
-script.js
-Ensure that all files are saved in the same directory for proper linking.
-Step 2: Open the Application
-Open the index.html file in your web browser by double-clicking on it or by right-clicking and selecting Open with > [Your Browser].
-How to Use the Application
-Adding a Song:
+Installation
+Prerequisites
+A modern web browser (e.g., Chrome, Firefox, Edge).
+A code editor (e.g., Visual Studio Code) for editing the HTML, CSS, and JavaScript files (optional).
+Steps to Run the Application
+Clone the repository:
 
-Enter the song title in the "Enter song title" input field.
-Enter the artist name in the "Enter artist name" input field.
-Click the "Add Song" button to add the song to the playlist.
-Viewing the Playlist:
+bash
+git clone https://github.com/yourusername/basic-song-app.git
+cd basic-song-app
+Open the project:
 
-The playlist will automatically update to show all songs added.
-Playing a Song:
+You can either open the folder in your preferred code editor or directly open the index.html file in your web browser.
+Launch the app:
 
-Click the "Play Song" button to simulate playing the first song in the playlist.
-Removing a Song:
+Double-click on index.html to open the song application in your browser.
+Usage
+Add Songs: Use the input fields to add a song title and artist to the playlist by clicking the Add Song button or pressing Enter.
+Manage Playlist: Buttons for playing and removing songs are present but currently lack functionality.
+Future Enhancements
+Play Song and Remove Song functionality: Implementing these actions using JavaScript.
+Input Validation: Ensure valid input before adding a song to the playlist.
+UI Improvements: Add visual feedback for button interactions and improve the user experience.
+Contribution
+Fork the project:
 
-Click the "Remove Song" button to remove the first song from the playlist.
-Responsive Design:
+Go to the GitHub page for the project and click the Fork button at the top.
+This creates a copy of the repository under your account.
+Clone your fork:
 
-The application is designed to be responsive, so it should work well on different devices and screen sizes.
+git clone https://github.com/yourusername/basic-song-app.git
+cd basic-song-app
+Create a new branch for your changes:
+
+git checkout -b your-branch-name
+Make your changes and commit them:
+
+bash
+git add .
+git commit -m "Add new feature"
+Push your changes to GitHub:
+
+bash
+git push origin your-branch-name
+
+Submit a Pull Request:
+
+Go to the repository on GitHub, and you will see an option to submit a pull request. Provide a detailed description of the changes you've made.

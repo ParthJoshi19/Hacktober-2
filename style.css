@@ -1,6 +1,7 @@
-*{
-    margin:10px;
+* {
+    margin: 10px;
 }
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -36,7 +37,12 @@ input[type="text"] {
     border-radius: 4px;
 }
 
-/* Error 2: Removed focus styling */
+/* Add focus styling for input fields */
+input[type="text"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
 button {
     padding: 10px 15px;
     border: none;
@@ -51,7 +57,10 @@ button:hover {
     background-color: #45a049;
 }
 
-/* Error 3: Removed active state from buttons */
+/* Add active state for buttons */
+button:active {
+    background-color: #3e8e41;
+}
 
 h2 {
     margin-top: 20px;
